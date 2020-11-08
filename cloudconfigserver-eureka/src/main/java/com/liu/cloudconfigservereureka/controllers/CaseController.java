@@ -26,6 +26,7 @@ public class CaseController {
         list.add("5");
         name="刘建";
         this.getName();
+        System.out.println(name);
         return "hi";
     }
 
