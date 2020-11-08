@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 public class CaseController {
-    
+
     String name;
 
     @RequestMapping("/hi")
@@ -18,10 +18,16 @@ public class CaseController {
         list.add("里斯");
         list.add("王武");
         list.add("赵六");
+        list.clear();
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
+        list.add("5");
         name="刘建";
         return "hi";
     }
-    
+
     public String getName(){
         return name;
     }
